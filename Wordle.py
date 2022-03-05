@@ -17,7 +17,6 @@ while running:
     l = file.readlines()
     Word = l[index].strip('\n').upper()
     tries = 0
-    print(index)
     
 
     def color_tiles(r):
@@ -58,8 +57,6 @@ while running:
 
 
         tries += 1
-        print(Word)
-        print(tries)
 
     
     def winorlose():
